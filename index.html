@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <title>Dice Game</title>
+</head>
+
+<body>
+  <div class="wrapper clearfix">
+
+    <div class="header">DICE GAME</div>
+
+    <div class="player-panel is-active" id="playerPanel0">
+      <div class="player-name" id="name0">Player 1</div>
+      <div class="player-score" id="score0">10</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Current</div>
+        <div class="player-current-score" id="current0">10</div>
+      </div>
+    </div>
+
+    <div class="player-panel" id="playerPanel1">
+      <div class="player-name" id="name1">Player 2</div>
+      <div class="player-score" id="score1">10</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Current</div>
+        <div class="player-current-score" id="current1">10</div>
+      </div>
+    </div>
+
+    <button class="btn-new" id="btnNew">New game</button>
+    <button class="btn-roll" id="btnRoll">Roll dice</button>
+    <button class="btn-hold" id="btnHold">Hold</button>
+    
+    <img src="images/dice-5.png" alt="Dice" class="dice" id="dice">
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
